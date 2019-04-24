@@ -11,4 +11,4 @@ print('檔案讀取完了，總共有', len(data), '筆資料')
 sun_len = 0
 for d in data:
 	sun_len += len(d) #sun_len = sun_len + len(d)
-print('留延平均長度是', sun_len / len(data))
+print('留言平均長度為', sun_len / len(data))
